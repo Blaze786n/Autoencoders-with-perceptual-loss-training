@@ -40,6 +40,8 @@ class Encoder(nn.Module):
             nn.ReLU()
         )
 
+
+    
     def forward(self, x):
         return self.encoder(x)
 
